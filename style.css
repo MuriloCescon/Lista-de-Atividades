@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+body {
+    background-color: #c4d8f7; 
+    font-family: 'Roboto', sans-serif; 
+    color: #3763a5; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 170vh;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+
+h1 {
+    color: #094e94;
+    font-size: 5.5rem; 
+    text-align: center; 
+    opacity: 0.7; 
+}
+
+
+form {
+    width: 380px;
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(221, 59, 59, 0.1);
+    background-color: #ffffff; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.input {
+    width: 100%;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem; 
+    color: #333333; 
+    display: block;
+    box-sizing: border-box; 
+}
+
+
+.input::placeholder {
+    color: #b5b5b5; 
+}
+
+
+.input:focus {
+    outline-color: #3498db; 
+}
+
+
+.todos {
+    background: #ffffff; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.todos li {
+    border-top: 1px solid #e0e0e0; 
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.todos li.completed {
+    color: #b5b5b5; 
+    text-decoration: line-through; 
+}
